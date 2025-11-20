@@ -6,7 +6,7 @@ O site foi construído utilizando apenas **HTML** e **CSS**, seguindo todos os r
 ---
 
 ## 📌 GitHub Pages (Site Publicado)
-👉 `https://seuusuario.github.io/seu-repositorio/`
+👉 [`Acesse o site`](https://gabrielfr7.github.io/Projeto-Figma/)
 
 ---
 
