@@ -1,0 +1,266 @@
+/* ----- GERALL ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+/* Faz o conteúdo empurrar o rodapé para baixo */
+main {
+    flex: 1;
+}
+section{
+    flex: 1;
+}
+
+/* ----- CABEÇALHO ----- */
+header {
+    background-color: #20396B;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* --- MENU ---- */
+nav a {
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a {
+    background-color: #F26C4F;
+    border-radius: 5px;
+}
+.active {
+    background-color: #F26C4F;
+    border-radius: 5px;
+}
+
+/* -----  MASCULINA / FEMININA ----- */
+.categorias {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px 0;
+}
+
+.masculina {
+    color: #20396B;
+    font-size: 20px;
+    font-weight: bold;
+}
+.feminina{
+    color: #20396B;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ----- PRODUTOS ----- */
+.produtos-container {
+    display: flex;
+    justify-content: center; 
+    gap: 80px;       /* espaço enntre as duas categorias */
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.coluna {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+    gap: 20px;
+    width: 520px;   /* serve para controlar o tamnho total da coluna! */
+}
+
+.produto {
+    width: 48%;
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.foto {
+    width: 100%;
+    height: 160px;
+    background: #ccc;
+    border-radius: 10px;
+}
+
+/* ----BOTÃO ---- */
+.botao {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #20396B;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* ----- RODAPÉ ----- */
+footer {
+    background-color: #898989;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* ----- PÁGINA DE DETALHES ----- */
+.sobre-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.foto-grande {
+    width: 350px;
+    height: 400px;
+    background: #ccc;
+    border-radius: 12px;
+}
+
+.info-produto {
+    width: 400px;
+}
+
+.info-produto {
+    color: #20396B;
+}
+h2{
+    color: #20396B;
+}
+
+.info-produto  {
+    font-size: 18px;
+    line-height: 1.5;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* ---- CONTATOS ---- */
+
+body.contatos-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* container principal centralizado com Flexbox */
+.contatos-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* título */
+.contatos-titulo {
+    text-align: center;
+    font-size: 28px;
+    color: #20396B;
+}
+
+/* drid dos cartões */
+.contatos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* card individual */
+.contato-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Ícones */
+.icone-contato {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+/* Destaques (número, e-mail etc.) */
+.info-destaque {
+    color: #F26C4F;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* borda laranja */
+.foto-grande {
+    border: 6px solid #F26C4F;
+}
+
+.foto {
+    border: 3px solid #F26C4F;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.foto-grande img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* deixa bonito sem deformar */
+    border-radius: 12px;
+}
+
+.preco {
+    color:#F26C4F
+
+}
+
+.botao-comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F26C4F;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+}
